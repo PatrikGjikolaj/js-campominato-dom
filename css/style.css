@@ -1,0 +1,20 @@
+div#grid {
+    width: 80vh;
+    height: 80vh;
+    background-color: orange;
+}
+
+div#grid .square {
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+div#grid,
+div#grid .square {
+    border: 2px white solid;
+}
+
+div#grid .square.clicked {
+    background-color: green;
+}
