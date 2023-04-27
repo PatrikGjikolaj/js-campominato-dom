@@ -15,6 +15,9 @@ div#grid .square {
     border: 2px white solid;
 }
 
-div#grid .square.clicked {
+.clicked {
     background-color: green;
+}
+.bomb {
+    background-color: red;
 }
